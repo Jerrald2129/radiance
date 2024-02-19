@@ -77,19 +77,6 @@ const Service = () => {
         Charging, & Rating Systems Addons`,
       key: "Billing",
     },
-    {
-      name: "Portal as a Service",
-      description: `In today's rapidly evolving telecom landscape, staying ahead means offering more than just connectivity. It's about delivering a seamless, intuitive experience to your end subscribers. Recognizing this, AT&T introduces an innovative solution for MVNOs without their own website: our "Portal as a Service." This powerful addon is designed to revolutionize the way you manage your subscribers, offering a turnkey web portal that puts control and convenience at the forefront.`,
-      subTitle: `Elevate Your MVNO Operations with AT&T's`,
-      key: "Charging",
-    },
-    {
-      name: "Billing, Charging & Rating",
-      description: `In today's rapidly evolving telecom landscape, staying ahead means offering more than just connectivity. It's about delivering a seamless, intuitive experience to your end subscribers. Recognizing this, AT&T introduces an innovative solution for MVNOs without their own website: our "Portal as a Service." This powerful addon is designed to revolutionize the way you manage your subscribers, offering a turnkey web portal that puts control and convenience at the forefront.`,
-      subTitle: `Transform Your MVNO Business with AT&T's Billing, 
-          Charging, & Rating Systems Addons`,
-      key: "Rating",
-    },
   ];
   const [selectedService, setSelectedService] = useState("5g");
   const [currentService, setCurrentService] = useState(serviceMenuItems[0]);

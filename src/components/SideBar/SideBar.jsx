@@ -27,7 +27,7 @@ import Reports_Icon from "../../assets/images/Paper.png";
 import Support_Icon from "../../assets/images/Work.png";
 import { useNavigate } from "react-router";
 
-const drawerWidth = 120;
+const drawerWidth = 100;
 function ResponsiveDrawer(props) {
   const navigate = useNavigate();
 
@@ -139,8 +139,8 @@ function ResponsiveDrawer(props) {
                   className={
                     props?.currentTab?.toLowerCase() ===
                     page?.name?.toLowerCase()
-                      ? `sidebar-active`
-                      : ``
+                      ? `sidebar-active sidebar-text`
+                      : `sidebar-text`
                   }
                 >
                   {page.name}

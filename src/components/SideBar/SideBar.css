@@ -30,17 +30,21 @@ border-style: solid; */
     overflow: scroll;
 }
 .siderbar-logo{
-    height: 50px;
+    height: 35px;
 }
 .siderbar-avatar{
-    height: 45px !important;
-    width: 45px !important;
+    height: 40px !important;
+    width: 40px !important;
 }
 .sidebar-active{
     color: rgba(0, 168, 224, 1);
+
+}
+.sidebar-text{
+    font-size: 14px;
 }
 .sidebar-option_icon{
-    height: 30px;
+    height: 25px;
 }
 .sidebar-item{
     padding-top: 10px;

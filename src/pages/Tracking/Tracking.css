@@ -1,17 +1,17 @@
 .tracking-sidemenu{
-    width: 30%;
+    width: 25%;
 }
 .tracking-body{
     height: 100vh;
     background-color: rgba(247, 250, 252, 1);
-    width: 70%;
+    width: 75%;
     overflow-y: scroll;
 }
 .tracking-details-container{
     margin: 0px 15px;
 }
 .tracking-image-list{
-    margin: 20px 0px;
+    margin: 29px 0px;
 }
 .tracking-head-card{
     background-color: #fff;
@@ -62,29 +62,29 @@ border-radius: 5px;
 .tracking-menutitle{
     margin: auto 0px;
     padding: 0px 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 
 }
 .tracking-body-title{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 550;
     padding-bottom: 15px;
 }
 .tracking-question-icon{
     color: rgba(102, 102, 102, 1);
-    font-size: 18px !important;
+    font-size: 16px !important;
     position: absolute;
     top: 10px;
 }
 .tracking-question-icon-head{
     color: rgba(102, 102, 102, 1);
-    font-size: 18px !important;
+    font-size: 16px !important;
     position: absolute;
     top: 6px;
 }
 .tracking-question{
-    font-size: 18px;
+    font-size: 16px;
     padding-right:10px ;
     font-weight: 500;
 }
@@ -110,7 +110,7 @@ border-radius: 5px;
     width: 95%;
 }
 .tracking-body-requirements-head{
- font-size: 20px;
+ font-size: 18px;
  font-weight: 500;
  position: relative;
  margin-right: 10px;
