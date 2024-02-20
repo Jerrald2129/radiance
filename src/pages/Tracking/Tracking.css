@@ -18,9 +18,14 @@
     padding: 15px 15px 15px 25px;
     border-radius: 3px;
 }
+.tracking-requestquota{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom:10px ;
+}
 .tracking-body-card{
     background-color: #fff;
-    padding: 15px 15px 15px 25px;
+    /* padding: 15px 15px 15px 25px; */
     border-radius: 3px;
     margin-top: 15px;
 }
@@ -59,11 +64,86 @@ border-radius: 5px;
     display: flex;
     margin: 10px 0px;
 }
+.requestquota-head-card{
+    background-color: #fff;
+    padding: 15px 15px 15px 25px;
+    border-radius: 3px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+    border-bottom-style: dashed;
+}
+.requestquota-item-image{
+    display: flex;
+    margin: 10px 0px;
+}
+.requestquota-5g{
+    background-color: rgba(4, 0, 187, 1);
+padding: 10px;
+height: 40px;
+border-radius: 5px;
+
+}
+.requestquota-edge{
+    background-color: rgba(138, 187, 0, 1);
+padding: 10px;
+height: 40px;
+border-radius: 5px;
+
+
+
+}
+.requestquota-datacontent{
+    width: 45%;
+}
+.requestquota-ome{
+padding: 10px;
+background-color:rgba(138, 0, 187, 1);
+height: 40px;
+border-radius: 5px;
+
+
+}
+.requestquota-prepaid{
+    background-color: rgba(187, 90, 0, 1);
+padding: 10px;
+height: 40px;
+border-radius: 5px;
+
+}
+.requestquota-menutitle{
+    margin: auto 0px;
+    padding: 0px 10px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.requestquota-checkbox{
+    width: 5%;
+}
 .tracking-menutitle{
     margin: auto 0px;
     padding: 0px 10px;
     font-size: 18px;
     font-weight: 600;
+
+}
+.requestquota-datas{
+/* width: 100%; */
+justify-content: space-around;
+flex-direction: column;
+}
+.requestquota-head{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 15px 15px 25px;
+}
+.requestquota-midcontent{
+    width: 50%;
+}
+.requestquota-checkmenu{
+    padding: 15px 15px 15px 25px;
+    background-color: rgba(240, 244, 246, 1);
+    
 
 }
 .tracking-body-title{

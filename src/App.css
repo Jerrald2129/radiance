@@ -55,6 +55,15 @@
 .mt-4{
   margin-top: 2rem !important;
 }
+.ml-2{
+  margin-left: 1rem ;
+}
+.ml-3{
+  margin-left: 1.5rem ;
+}
+.mx-2{
+  margin: 0px 1rem !important;
+}
 .mt-1{
   margin-top: 0.5rem !important;
 }
@@ -64,6 +73,16 @@
 .mt-3{
   margin-top: 1.5rem !important;
 }
+.pl-1{
+  padding-left: 0.5rem;
+}
+.pr-1{
+  padding-right: 0.5rem;
+
+}
+.pl-2{
+  padding-left: 1rem;
+}
 .mY-auto{
   margin: auto 0px;
 }
@@ -72,6 +91,9 @@
 }
 .flex-row{
   flex-direction: column;
+}
+.css-i93ulj-MuiButtonBase-root-MuiCheckbox-root {
+  padding: 0px !important;
 }
 .text-center{
   text-align: center;

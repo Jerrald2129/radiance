@@ -264,7 +264,7 @@ const Service = () => {
                   />
                 </div>
                 <Divider className="my-2" />
-                <div className="service-body-title">ADD ONs</div>
+                {/* <div className="service-body-title">ADD ONs</div>
                 <div className="d-flex-wrap">
                   {addOnItems.map((addOn) => {
                     return (
@@ -297,7 +297,7 @@ const Service = () => {
                       </div>
                     );
                   })}
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
