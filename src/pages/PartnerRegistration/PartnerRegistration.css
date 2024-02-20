@@ -1,0 +1,137 @@
+.registration-container{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.registration-tabs{
+ display: flex;
+}
+.registration-tab{
+    width: 33.33%;
+    text-align: center;
+    color: rgba(161, 161, 161, 1);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+    border-bottom: 2px solid rgba(204, 204, 204, 1);
+    height: 6vh;
+}
+.registration-tab-completed{
+    background-color: rgba(248, 249, 251, 1);
+    color:#000000;
+    border-bottom: 2px solid rgba(0, 168, 224, 1);
+}
+.registration-tab-subcontent{
+    width: 33.33%;
+    background-color: rgba(248, 249, 251, 1);
+    height: 94vh;
+}
+.registration-tabsubcontent-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.registration-tab-maincontent{
+    width: 66.66%;
+    /* background-color: rgba(248, 249, 251, 1); */
+    height: 94vh;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.registration-dataset{
+    width: 70%;
+}
+.registration-dataset-title{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+.registration-partner-input{
+    width: 96%;
+}
+.registration-partner-input-right{
+    width: 100%;
+}
+.registration-partner-content{
+    width: 50%;
+}
+.registration-partner-content-3{
+    width: 33.33%;
+}
+.registration-partner-BEmailID{
+    width: 100%;
+
+}
+.registration-partner-button{
+    min-width: 120px !important;
+}
+.registration-tab-maincontiner{
+    display: flex;
+    justify-content: center;
+}
+.registration-tab-numberCircleprogress{
+    background-color: rgba(248, 249, 251, 1) !important;
+    color: rgba(0, 168, 224, 1);
+    border: 1px solid rgba(0, 168, 224, 1) !important;
+}
+.registration-tab-numberCirclecompleted{
+    background-color: rgba(0, 168, 224, 1) !important;
+    color: #fff;
+    border: 1px solid rgba(0, 168, 224, 1) !important;
+}
+.registration-tab-info{
+    color: rgba(102, 102, 102, 1);
+}
+.registration-tabsubcontent-bottom{
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.registration-tab-info-content{
+    padding-left: 5px;
+    width: 90%;
+}
+.registration-step{
+    color: rgba(102, 102, 102, 1);
+    font-size: 18px;
+    padding: 0px 20px;
+}
+.registration-step-desc{
+    font-size: 26px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+
+
+.registration-tab-numberCircle {
+    font-style: normal;
+    width: 25px;
+    min-width: 25px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    height: 25px;
+    vertical-align: middle;
+    border: 1px solid rgba(161, 161, 161, 1);
+    margin-right: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+  }
+  
+  .registration-tab-numberCircle:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 25px;
+    border-left: 1px solid rgba(161, 161, 161, 1);
+    transform: translate(-50%);
+  }
+  

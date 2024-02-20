@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Login from "./components/Login";
 import Service from "./pages/Service/Service";
 import Tracking from "./pages/Tracking/Tracking";
+import PartnerRegistration from "./pages/PartnerRegistration/PartnerRegistration";
 
 function App() {
   return (
@@ -19,6 +20,12 @@ function App() {
             }
           />
           <Route
+            path="/partnerregistration"
+            element={
+                <PartnerRegistration />
+            }
+          />
+          <Route
             path="/tracking"
             element={
                 <Tracking />
@@ -26,6 +33,7 @@ function App() {
           />
           <Route path="/login" element={<Login/>} />
           <Route path="/" element={<Navigate to="/login" />} />
+          
           <Route
             path="*"
             element={

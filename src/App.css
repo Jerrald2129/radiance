@@ -49,6 +49,27 @@
 .my-2{
   margin: 1rem 0rem !important;
 }
+.mx-2{
+  margin: 0rem 1rem !important;
+}
+.mt-4{
+  margin-top: 2rem !important;
+}
+.mt-1{
+  margin-top: 0.5rem !important;
+}
+.mt-2{
+  margin-top: 1rem !important;
+}
+.mt-3{
+  margin-top: 1.5rem !important;
+}
+.mY-auto{
+  margin: auto 0px;
+}
+.text-left{
+  text-align: left;
+}
 .flex-row{
   flex-direction: column;
 }
@@ -61,8 +82,23 @@
 .justify-between{
   justify-content: space-between;
 }
+.p-3{
+  padding: 1.5rem;
+}
+.p-2{
+  padding: 1rem;
+}
+.p-4{
+  padding: 2rem;
+}
+.justify-end{
+  justify-content: flex-end;
+}
 .bg-att{
   background-color: rgba(0, 177, 234, 1) !important;
+}
+.color-att{
+  color: rgba(0, 177, 234, 1) !important;
 }
 .custom-button{
   /* padding: 8.5px 9px !important; */
