@@ -1,0 +1,25 @@
+.dashboard-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.dashboard-quotation-head{
+    width: 45%;
+}
+.dashboard-quotation-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.dashboard-quotation-subtitle{
+    color: rgba(69, 69, 69, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+.dashboard-quotation-subtitle-d{
+    color: rgba(69, 69, 69, 1);
+    font-size: 14px;
+    font-weight: 600;
+}
+.dashboard-quotation-description{
+    color: rgba(102, 102, 102, 1);
+    font-size: 14px;
+}

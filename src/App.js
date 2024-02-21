@@ -7,6 +7,7 @@ import Login from "./components/Login";
 import Service from "./pages/Service/Service";
 import Tracking from "./pages/Tracking/Tracking";
 import PartnerRegistration from "./pages/PartnerRegistration/PartnerRegistration";
+import Dashboard from "./pages/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -23,6 +24,12 @@ function App() {
             path="/partnerregistration"
             element={
                 <PartnerRegistration />
+            }
+          />
+          <Route
+            path="/dashboard"
+            element={
+                <Dashboard />
             }
           />
           <Route

@@ -36,6 +36,7 @@ function ResponsiveDrawer(props) {
       name: "Dashboard",
       activeicon: Home_Icon,
       icon: Home_Icon,
+      path: "/dashboard",
     },
     {
       name: "Service",
@@ -44,7 +45,7 @@ function ResponsiveDrawer(props) {
       path: "/service",
     },
     {
-      name: "Tracking",
+      name: "Order",
       icon: Tracking_Icon,
       activeicon: Tracking_Icon,
       path: "/tracking",

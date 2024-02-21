@@ -46,6 +46,9 @@
 .my-1{
   margin: 0.5rem 0rem !important;
 }
+.m-2{
+  margin: 1rem;
+}
 .my-2{
   margin: 1rem 0rem !important;
 }
@@ -57,6 +60,9 @@
 }
 .ml-2{
   margin-left: 1rem ;
+}
+.ml-1{
+  margin-left: 0.5rem ;
 }
 .ml-3{
   margin-left: 1.5rem ;
@@ -78,10 +84,37 @@
 }
 .pr-1{
   padding-right: 0.5rem;
-
 }
+.pr-2{
+  padding-right: 1rem;
+}
+
 .pl-2{
   padding-left: 1rem;
+}
+.py-1{
+  padding:0.5rem 0rem;
+}
+.py-1{
+  padding:0.5rem 0rem;
+}
+.py-2{
+  padding: 1rem 0rem;
+}
+.py-3{
+  padding: 1.5rem 0rem;
+}
+.pb-1{
+  padding-bottom: 0.5rem;
+}
+.pl-3{
+  padding-left: 1.5rem;
+}
+.pb-05{
+  padding-bottom: 0.25rem;
+}
+.px-2{
+  padding: 0rem 1rem;
 }
 .mY-auto{
   margin: auto 0px;
@@ -92,9 +125,15 @@
 .flex-row{
   flex-direction: column;
 }
-.css-i93ulj-MuiButtonBase-root-MuiCheckbox-root {
-  padding: 0px !important;
+.Mui-checked {
+  padding: 0px 9px!important;
 }
+.MuiCheckbox-root{
+  padding: 0px 9px!important;
+}
+/* .css-11hzah3-MuiButtonBase-root-MuiCheckbox-root{
+
+} */
 .text-center{
   text-align: center;
 }
