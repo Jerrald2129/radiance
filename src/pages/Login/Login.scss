@@ -1,0 +1,182 @@
+
+.login_container {
+  width: calc(100dvw - 20px);
+  height: calc(100dvh - 20px);
+  background-color: #000000;
+  padding: 10px;
+  background-image: url("../images/login_bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  .logo_container{
+    img{
+        width: 30px;
+    }
+  }
+  .login_body{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: 20px auto;
+    .login_left{
+      margin-top: 12%;
+      width: 50%;
+        p{
+            color: #dfdfdf;
+        }
+        .title{
+            font-size: 40px;
+        }
+        .desc{
+            font-size:27px;
+        }
+    }
+  }
+}
+.login_right{
+  display: flex;
+width:50%;
+padding: 20px;
+margin-top: 5%;
+justify-content: center;
+
+.input{
+  width: 70%;
+}
+}
+.login-card {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  padding: 40px;
+  border: 1px solid #ccc;
+background: rgba(0,0,0,0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.9px);
+-webkit-backdrop-filter: blur(10.9px);
+color: #DDDDFF;
+
+}
+
+.login-card h2 {
+  margin-bottom: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+}
+.login-card p {
+  margin-bottom: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: transparent;
+  color: #DDDDFF;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  justify-content: center;
+
+}
+.login-card input::placeholder{
+  color: #DDDDFF;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+}
+.rem-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  align-items: center;
+  padding: 5px;
+}
+.remember-me {
+  display: flex;
+  flex-direction: row;
+  width:40%;
+}
+
+.remember-me label {
+  color: #DDDDFF;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 2px;
+}
+.remember-me input{
+  width:12%;
+}
+
+.forgot-password a {
+  color:rgba(0, 168, 224, 1);
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+.image-style {
+  width: 20%;
+}
+.input-group{
+  width: 90%;
+  background-color: transparent;
+  border:#DDDDFF;
+  padding: 2px;
+}
+.input-group-label{
+  color: #DFDFDF;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  padding: 2px;
+}
+.login_button{
+  width: 95%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  justify-content: center;
+  background: linear-gradient(90deg, #009CD0 0%, #5FD7FF 103.17%);
+}
+
+.bottom-text-above{
+  display: flex;
+  justify-content: center;
+  color:rgba(255, 255, 255, 1);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.bottom-container{
+  display: flex;
+}
+.bottom-text{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  width: 90%;
+  justify-content: space-between;
+  color:rgba(255, 255, 255, 1);
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 10px;
+}

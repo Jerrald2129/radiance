@@ -3,11 +3,11 @@ import './global.scss';
 import './App.css';
 
 import Home from './components/Home';
-import Login from "./components/Login";
 import Service from "./pages/Service/Service";
 import Tracking from "./pages/Tracking/Tracking";
 import PartnerRegistration from "./pages/PartnerRegistration/PartnerRegistration";
 import Dashboard from "./pages/Dashboard/Dashboard";
+import Login from "./pages/Login/Login";
 
 function App() {
   return (
@@ -38,7 +38,6 @@ function App() {
                 <Tracking />
             }
           />
-          <Route path="/login" element={<Login/>} />
           <Route path="/" element={<Navigate to="/login" />} />
           
           <Route
