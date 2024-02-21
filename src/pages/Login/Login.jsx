@@ -3,17 +3,20 @@ import logo from "../../assets/images/logo.png";
 import "./Login.scss";
 import { useState } from "react";
 import logotext from "../../assets/images/logotext.png";
+import { useNavigate } from "react-router";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
+  const navigate = useNavigate();
 
   const handleLogin = () => {
     // Handle login logic here
     console.log("Email:", email);
     console.log("Password:", password);
     console.log("Remember Me:", rememberMe);
+    navigate("/partnerregistration");
   };
 
   const handleCheckboxChange = () => {

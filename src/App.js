@@ -5,9 +5,9 @@ import './App.css';
 import Home from './components/Home';
 import Service from "./pages/Service/Service";
 import Tracking from "./pages/Tracking/Tracking";
-import PartnerRegistration from "./pages/PartnerRegistration/PartnerRegistration";
-import Dashboard from "./pages/Dashboard/Dashboard";
 import Login from "./pages/Login/Login";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import PartnerRegistration from "./pages/PartnerRegistration/PartnerRegistration";
 
 function App() {
   return (
@@ -21,9 +21,9 @@ function App() {
             }
           />
           <Route
-            path="/partnerregistration"
+            path="/tracking"
             element={
-                <PartnerRegistration />
+                <Tracking />
             }
           />
           <Route
@@ -33,13 +33,13 @@ function App() {
             }
           />
           <Route
-            path="/tracking"
+            path="/partnerregistration"
             element={
-                <Tracking />
+                <PartnerRegistration />
             }
           />
+          <Route path="/login" element={<Login/>} />
           <Route path="/" element={<Navigate to="/login" />} />
-          
           <Route
             path="*"
             element={

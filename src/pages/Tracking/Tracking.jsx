@@ -18,6 +18,10 @@ import Workd_Icon from "../../assets/images/world2.png";
 import addOnIcon2 from "../../assets/images/addon2.svg";
 import addOnIcon1 from "../../assets/images/addon1.svg";
 import sendIcon from "../../assets/images/Send.svg";
+import CategoryIcon from "../../assets/images/Category.svg";
+import TicketIcon from "../../assets/images/Ticket Star.svg";
+import ActivityIcon from "../../assets/images/Activity.svg";
+import GraphIcon from "../../assets/images/Graph.svg";
 
 import {
   Button,
@@ -368,28 +372,48 @@ const Tracking = () => {
                           <img src={addon.img} />
                         </div>
                         <div className="requestquota-addon-content">
-                          <div className="d-flex justify-between">
-                            <div className="requestquota-addon-head">
-                              {addon.name}
-                            </div>
-                            <div>
-                              <Checkbox
-                                defaultChecked
-                                sx={{
-                                  color: "rgba(0, 168, 224, 1)",
-                                  "&.Mui-checked": {
+                          <>
+                            <div className="d-flex justify-between">
+                              <div className="requestquota-addon-head">
+                                {addon.name}
+                              </div>
+                              <div>
+                                <Checkbox
+                                  defaultChecked
+                                  sx={{
                                     color: "rgba(0, 168, 224, 1)",
-                                  },
-                                  "& .MuiSvgIcon-root": { fontSize: 30 },
-                                }}
-                              />
+                                    "&.Mui-checked": {
+                                      color: "rgba(0, 168, 224, 1)",
+                                    },
+                                    "& .MuiSvgIcon-root": { fontSize: 30 },
+                                  }}
+                                />
+                              </div>
                             </div>
-                          </div>
-                          <div className="requestquota-addon-subtitle">
-                            {addon.subTitle}
-                          </div>
-                          <div className="requestquota-addon-description">
-                            {addon.description}
+                            <div className="requestquota-addon-subtitle">
+                              {addon.subTitle}
+                            </div>
+                            <div className="requestquota-addon-description">
+                              {addon.description}
+                            </div>
+                          </>
+                          <div className="d-flex justify-between pt-2">
+                            <div className="requestquota-addon-description d-flex">
+                              <img src={CategoryIcon} />
+                              <div className="pl-1">Portal Service</div>
+                            </div>
+                            <div className="requestquota-addon-description d-flex">
+                              <img src={ActivityIcon} />
+                              <div className="pl-1">Seamless Experience</div>
+                            </div>
+                            <div className="requestquota-addon-description d-flex">
+                              <img src={GraphIcon} />
+                              <div className="pl-1">Control & Monitoring</div>
+                            </div>
+                            <div className="requestquota-addon-description d-flex">
+                              <img src={TicketIcon} />{" "}
+                              <div className="pl-1">Revolutionary Approach</div>
+                            </div>
                           </div>
                         </div>
                       </div>
